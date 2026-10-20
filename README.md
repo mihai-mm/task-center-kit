@@ -4,7 +4,7 @@ Con questo kit il tuo assistente (Claude Code) usa il Task Command Center al pos
 
 ## Cosa ti serve
 
-- Il tuo accesso al Task Command Center (lo stesso del sito).
+- Il tuo accesso al Task Command Center (lo stesso del sito), che ti ha dato Mihai.
 - Claude Code installato sul tuo computer (porta con sé Node, che serve al kit).
 - Questo repository sul tuo computer.
 
@@ -15,6 +15,8 @@ Con questo kit il tuo assistente (Claude Code) usa il Task Command Center al pos
    ```bash
    git clone https://github.com/mihai-mm/task-center-kit.git
    ```
+
+   Non serve un account GitHub per scaricarlo.
 
 2. **Crea la tua chiave** sul sito: Impostazioni → Assistente → scrivi un nome (per esempio «Portatile») → «Crea chiave» → «Copia». La vedi una volta sola.
 
@@ -32,10 +34,11 @@ Con questo kit il tuo assistente (Claude Code) usa il Task Command Center al pos
 
 ## Da sapere
 
-- **Quello che crei nel Team lo vedono tutti** (Mihai, Kevin). Non c'è un posto privato.
+- **Quello che crei nel Team lo vedono tutti** (Mihai e le altre persone del Team). Non c'è un posto privato.
 - **Modifichi i task che hai creato o su cui sei assegnato**; gli altri li puoi commentare.
-- **Una menzione** (`@kevin`) in un commento manda una notifica.
+- **Una menzione** (`@nome`) in un commento manda una notifica.
 - **Se perdi il computer** o pensi che qualcuno abbia la chiave: sito → Impostazioni → Assistente → «Revoca tutte». La chiave scade comunque dopo 180 giorni: allora ne crei una nuova e ripeti il passo 3.
+- **Cambiare la password del sito non revoca le chiavi.** Dopo un furto o un sospetto non basta cambiarla: vai in Impostazioni → Assistente e premi «Revoca tutte».
 - **Aggiornare il kit**: nella sua cartella, `git pull`. Se l'app risponde «il kit è troppo vecchio», è questo che serve.
 - **Per togliere la chiave da questo computer**: `node bin/task.mjs chiave --rimuovi` (e revocala sul sito).
 

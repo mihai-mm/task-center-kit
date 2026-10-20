@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// CLI leggera del Task Command Center per l'assistente di una persona del team.
+// CLI leggera del Task Command Center per l'assistente di chi usa l'app.
 // Manda i comandi alla porta dell'app con la tua chiave personale e stampa la
 // risposta: stessi comandi della CLI di Mihai, ma con i TUOI permessi.
 // Nessuna dipendenza: basta Node 18 o più recente.
@@ -36,10 +36,10 @@ Prima volta:
 
 Comandi (con i tuoi permessi):
   oggi [--team]                     i tuoi task di oggi (--team: tutto il Team)
-  rank | list [--project X] [--assignee kevin] [--all]
+  rank | list [--project X] [--assignee nome] [--all]
   show <id>                         un task per intero
-  add --title "..." [--notes "..."] [--project X] [--due AAAA-MM-GG] [--assignee adriano,kevin] [--priority high]
-  set <id> [--status in_progress|done|...] [--title ...] [--due ...] [--add-assignee kevin]
+  add --title "..." [--notes "..."] [--project X] [--due AAAA-MM-GG] [--assignee nome1,nome2] [--priority high]
+  set <id> [--status in_progress|done|...] [--title ...] [--due ...] [--add-assignee nome]
   done <id>                         chiude il task
   comment <id> --body "..."         commenta (anche i task degli altri)
   snooze <id> --until AAAA-MM-GG    rinvia

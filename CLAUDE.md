@@ -1,6 +1,6 @@
 # Task Command Center - kit per l'assistente
 
-Questa cartella è il kit con cui l'assistente di una persona del team usa il Task Command Center di Mihai con i permessi di quella persona.
+Questa cartella è il kit con cui l'assistente di chi usa l'app si collega al Task Command Center di Mihai con i permessi di quella persona.
 
 - Istruzioni d'uso per l'assistente: [ISTRUZIONI-ASSISTENTE.md](ISTRUZIONI-ASSISTENTE.md). Leggile quando si parla di task.
 - Primo avvio o rifacimento delle scelte: skill `/onboarding` (`.claude/skills/onboarding/SKILL.md`).

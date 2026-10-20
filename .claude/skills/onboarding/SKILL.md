@@ -1,6 +1,6 @@
 ---
 name: onboarding
-description: Primo avvio del Task Command Center per una persona del team, o rifacimento delle sue scelte. Verifica la chiave, fa una domanda alla volta su come scrivere i task e quali gesti fa l'assistente, salva le scelte nell'app e collega l'assistente al kit. Usala quando la persona dice "onboarding", "configuriamo i task", "rifacciamo le scelte", quando `profilo` dice che non c'è un profilo o che il questionario è cambiato, oppure con /onboarding.
+description: Primo avvio del Task Command Center per chi usa l'app, o rifacimento delle sue scelte. Verifica la chiave, fa una domanda alla volta su come scrivere i task e quali gesti fa l'assistente, salva le scelte nell'app e collega l'assistente al kit. Usala quando la persona dice "onboarding", "configuriamo i task", "rifacciamo le scelte", quando `profilo` dice che non c'è un profilo o che il questionario è cambiato, oppure con /onboarding.
 ---
 
 # Onboarding del Task Command Center
@@ -23,9 +23,9 @@ Obiettivo: alla fine la persona ha (1) la chiave che funziona, (2) le sue scelte
 ## 2. Prima di cominciare: tre cose da sapere
 
 Dille in poche righe, prima delle domande:
-- quello che crei nel Team lo vedono tutti (Mihai, Kevin): non c'è un posto privato;
+- quello che crei nel Team lo vedono tutti (Mihai e le altre persone del Team): non c'è un posto privato;
 - puoi modificare i task che hai creato o su cui sei assegnato; gli altri li puoi commentare;
-- una menzione (`@kevin`) in un commento manda una notifica.
+- una menzione (`@nome`) in un commento manda una notifica.
 
 ## 3. Le domande
 
@@ -56,4 +56,4 @@ Quando la conversazione tocca i task, leggi e segui `<kit>/ISTRUZIONI-ASSISTENTE
 ## 6. Chiusura
 
 1. Se ha scelto il piano del giorno, mostra `node <kit>/bin/task.mjs oggi`.
-2. Ricordagli: le scelte si cambiano quando vuole (anche dal sito, Impostazioni → Assistente); il kit si aggiorna con `git pull` nella sua cartella; se perde il computer, revoca le chiavi dal sito («Revoca tutte»).
+2. Ricordagli: le scelte si cambiano quando vuole (anche dal sito, Impostazioni → Assistente); il kit si aggiorna con `git pull` nella sua cartella; se perde il computer o sospetta che qualcuno abbia la chiave, revoca le chiavi dal sito («Revoca tutte»): cambiare la password del sito non basta.
