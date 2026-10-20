@@ -38,8 +38,10 @@ Comandi (con i tuoi permessi):
   oggi [--team]                     i tuoi task di oggi (--team: tutto il Team)
   rank | list [--project X] [--assignee nome] [--all]
   show <id>                         un task per intero
-  add --title "..." [--notes "..."] [--project X] [--due AAAA-MM-GG] [--assignee nome1,nome2] [--priority high]
-  set <id> [--status in_progress|done|...] [--title ...] [--due ...] [--add-assignee nome]
+  add --title "..." [--notes "..."] [--project X] [--due AAAA-MM-GG] [--assignee nome1,nome2] [--priority high] [--pronto]
+  set <id> [--status in_progress|done|...] [--title ...] [--due ...] [--add-assignee nome] [--pronto|--non-pronto]
+  claude-queue                      i task che hai affidato al tuo Claude, con via libera (--assignee claude --pronto)
+  claude-parcheggio [--json]        affidati al tuo Claude ma ancora senza via libera
   done <id>                         chiude il task
   comment <id> --body "..."         commenta (anche i task degli altri)
   snooze <id> --until AAAA-MM-GG    rinvia

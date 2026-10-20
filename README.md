@@ -37,6 +37,7 @@ Con questo kit il tuo assistente (Claude Code) usa il Task Command Center al pos
 - **Hai due spazi: il Team e il tuo spazio privato.** Il Team è condiviso: un task dentro un progetto del Team lo vedono tutti i membri (Mihai e gli altri). Il tuo spazio privato è solo tuo: ci finiscono i task senza progetto e quelli dentro un progetto privato tuo. Mihai non vede i tuoi privati e tu non vedi i suoi.
 - **Come si sceglie dove va un task:** se lo metti in un progetto del Team, lo vedono tutti; se non scegli nessun progetto, o scegli un tuo progetto privato, lo vedi solo tu. Il tuo assistente, prima di creare un task, si chiede (e se serve ti chiede) se deve stare nel Team o nel privato.
 - **Modifichi i task che hai creato o su cui sei assegnato**; gli altri li puoi commentare.
+- **Affidare un task al tuo Claude.** Assegna il task a Claude e dagli il via libera: dal sito, nel pannello del task (assegnatari «Claude» e casella «Delega»), oppure chiedendolo al tuo assistente. A inizio sessione il tuo assistente guarda i task che gli hai affidato (`claude-queue`) ed esegue solo quelli con il via libera; poi commenta com'è andata e li chiude. «Claude» su un task è sempre l'assistente di chi ha creato il task: nessun altro può mettere lavoro nella tua coda, e tu non puoi metterne in quella degli altri (se ci provi l'app risponde «Solo chi ha creato il task può affidarlo al suo Claude»). Puoi spegnere il controllo a inizio sessione dal sito, Impostazioni → Assistente.
 - **Una menzione** (`@nome`) in un commento manda una notifica.
 - **Se perdi il computer** o pensi che qualcuno abbia la chiave: sito → Impostazioni → Assistente → «Revoca tutte». La chiave scade comunque dopo 180 giorni: allora ne crei una nuova e ripeti il passo 3.
 - **Cambiare la password del sito non revoca le chiavi.** Dopo un furto o un sospetto non basta cambiarla: vai in Impostazioni → Assistente e premi «Revoca tutte».
@@ -51,6 +52,7 @@ Con questo kit il tuo assistente (Claude Code) usa il Task Command Center al pos
 | «Chiave non valida, scaduta o revocata» | Creane una nuova dal sito e ripeti il passo 3 |
 | «La porta per gli assistenti è spenta» | Avvisa Mihai |
 | «Puoi vedere il task ma non modificarlo» | Il task è di un altro: commentalo |
+| «Solo chi ha creato il task può affidarlo al suo Claude» | Il task è di un altro: non puoi affidarlo al tuo Claude. Crea un tuo task, o commenta quello |
 | «Troppe richieste» | Aspetta un minuto |
 | «Non raggiungo l'app» | Controlla la connessione; se era una modifica, verifica prima di riprovare |
 
