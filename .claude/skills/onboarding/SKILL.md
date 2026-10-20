@@ -18,12 +18,13 @@ Obiettivo: alla fine la persona ha (1) la chiave che funziona, (2) le sue scelte
    - **lei**, in un terminale (non nella chat), lancia `node <kit>/bin/task.mjs chiave` e incolla la chiave;
    - rilancia `chi-sono`.
    Non chiedere mai di incollare la chiave nella chat. Se te la incolla comunque, dille di revocarla subito dal sito e di crearne un'altra.
-4. Se la porta risponde «spenta», l'accesso non è ancora attivo: chiedi alla persona di avvisare Mihai e fermati.
+4. Se la porta risponde «spenta», l'accesso è stato disattivato: chiedi alla persona di avvisare Mihai e fermati.
 
-## 2. Prima di cominciare: tre cose da sapere
+## 2. Prima di cominciare: quattro cose da sapere
 
 Dille in poche righe, prima delle domande:
-- quello che crei nel Team lo vedono tutti (Mihai e le altre persone del Team): non c'è un posto privato;
+- hai due spazi: il Team e il tuo spazio privato. Un task in un progetto del Team lo vedono tutti (Mihai e le altre persone del Team); un task senza progetto, o in un tuo progetto privato, lo vedi solo tu (Mihai non vede i tuoi privati, e tu non vedi i suoi);
+- prima di creare un task, il tuo assistente si chiede se deve stare nel Team o nel privato, e non sposta mai un task da uno spazio all'altro senza chiedertelo;
 - puoi modificare i task che hai creato o su cui sei assegnato; gli altri li puoi commentare;
 - una menzione (`@nome`) in un commento manda una notifica.
 

@@ -19,7 +19,8 @@ Queste istruzioni sono per l'assistente (Claude Code) della persona che usa ques
 
 ## Regole fisse, qualunque scelta
 
-- **Lavori con i permessi della persona.** Vedi solo il workspace Team; quello che crei lo vedono anche gli altri del Team (Mihai e le altre persone del Team). Non c'è un posto privato.
+- **Lavori con i permessi della persona.** Vedi il Team e lo spazio privato della persona, niente altro. Il Team è condiviso: un task in un progetto del Team lo vedono tutti i membri (Mihai e gli altri). Lo spazio privato è solo della persona: ci stanno i task senza progetto e quelli in un progetto privato, e nessun altro li vede, nemmeno Mihai. Gli spazi privati degli altri non li vedi.
+- **Prima di creare un task, chiediti se deve stare nel Team o nel privato**, secondo il profilo della persona e secondo cosa riguarda il task (un lavoro condiviso con gli altri va in un progetto del Team, con `--project`; una cosa personale va senza progetto o in un suo progetto privato). Se non è chiaro, chiedi alla persona. **Non spostare mai un task da uno spazio all'altro senza chiederlo**: spostarlo nel Team lo rende visibile a tutti.
 - **Modifichi solo i task che la persona ha creato o su cui è assegnata.** Gli altri li puoi commentare. Se l'app risponde «puoi vederlo ma non modificarlo», non insistere: proponi un commento.
 - **Niente task a Claude** e niente via libera (`--pronto`): sono gesti di Mihai sulla sua board.
 - **Una menzione (`@nome`) in un commento manda una notifica**: seguila come dice il profilo.

@@ -34,7 +34,8 @@ Con questo kit il tuo assistente (Claude Code) usa il Task Command Center al pos
 
 ## Da sapere
 
-- **Quello che crei nel Team lo vedono tutti** (Mihai e le altre persone del Team). Non c'è un posto privato.
+- **Hai due spazi: il Team e il tuo spazio privato.** Il Team è condiviso: un task dentro un progetto del Team lo vedono tutti i membri (Mihai e gli altri). Il tuo spazio privato è solo tuo: ci finiscono i task senza progetto e quelli dentro un progetto privato tuo. Mihai non vede i tuoi privati e tu non vedi i suoi.
+- **Come si sceglie dove va un task:** se lo metti in un progetto del Team, lo vedono tutti; se non scegli nessun progetto, o scegli un tuo progetto privato, lo vedi solo tu. Il tuo assistente, prima di creare un task, si chiede (e se serve ti chiede) se deve stare nel Team o nel privato.
 - **Modifichi i task che hai creato o su cui sei assegnato**; gli altri li puoi commentare.
 - **Una menzione** (`@nome`) in un commento manda una notifica.
 - **Se perdi il computer** o pensi che qualcuno abbia la chiave: sito → Impostazioni → Assistente → «Revoca tutte». La chiave scade comunque dopo 180 giorni: allora ne crei una nuova e ripeti il passo 3.
