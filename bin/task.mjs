@@ -44,7 +44,6 @@ Comandi (con i tuoi permessi):
   claude-parcheggio [--json]        affidati al tuo Claude ma ancora senza via libera
   done <id>                         chiude il task
   comment <id> --body "..."         commenta (anche i task degli altri)
-  snooze <id> --until AAAA-MM-GG    rinvia
   note list|show|add|set            note dei progetti del Team
   sessione add|list                 tempo lavorato
   profilo [questionario|set|salva]  come vuoi che il tuo assistente lavori

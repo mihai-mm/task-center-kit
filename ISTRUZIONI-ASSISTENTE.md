@@ -13,7 +13,7 @@ Queste istruzioni sono per l'assistente (Claude Code) della persona che usa ques
 ## Come si usano i comandi
 
 - Tutti i comandi: `node <kit>/bin/task.mjs aiuto`.
-- `list`, `rank`, `oggi`, `show`, `claude-queue`, `claude-parcheggio` per leggere; `add`, `set`, `done`, `comment`, `snooze` per scrivere.
+- `list`, `rank`, `oggi`, `show`, `claude-queue`, `claude-parcheggio` per leggere; `add`, `set`, `done`, `comment` per scrivere.
 - Prima di creare un task, cerca se esiste già (`list --project X`): se c'è, commenta quello.
 - Nelle note e nei commenti l'app mostra il markdown (grassetto, elenchi, `###`). Nel titolo no. Accenti veri sempre (è, più, perché).
 - Le risposte di scrittura sono JSON: il campo `id` è il numero del task.
